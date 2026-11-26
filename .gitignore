@@ -1,0 +1,45 @@
+﻿# Entornos virtuales
+.venv/
+.venv-nlp/
+venv/
+env/
+
+# Dependencias
+node_modules/
+
+# Modelos de IA
+models/
+
+# Archivos generados
+output/*
+!output/.gitkeep
+
+# Bases de datos locales
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Archivos sensibles
+.env
+.env.*
+!.env.example
+
+# Logs y temporales
+*.log
+__pycache__/
+*.pyc
+
+# Builds
+dist/
+build/
+
+# Producciones y recursos locales
+projects/
+renders/
+clips/
+
+# Informes de auditoría locales
+auditoria-*.txt
+
+# Copias de seguridad locales
+*.backup.js

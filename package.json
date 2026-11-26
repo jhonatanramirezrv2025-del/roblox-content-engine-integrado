@@ -1,0 +1,17 @@
+{
+  "name": "roblox-content-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "render": "node src/render.js",
+    "voice": "node src/generate-voice.js",
+    "produce": "node src/produce.js",
+    "test:scenes": "node tests/test-scene-manager.js",
+    "test:visuals": "node tests/test-visual-pipeline.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
